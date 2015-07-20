@@ -1,0 +1,13 @@
+<html>
+<body>
+	<h1>Adopt {{item.name}}</h1>
+	<form action ="{{url_for('adoptPuppy' , shelter_id = shelter_id , puppy_id = puppy_id)}}" method = 'POST'>
+		Name: <input type ='text' name = 'name1'></br>
+		Address: <input type ='text' name = 'name2'></br>
+		City: <input type ='text' name = 'name3'></br>
+		State: <input type ='text' name = 'name4'></br>
+		Puppy id: <input type ='text' name = 'name5'></br>
+		<input type = 'submit' value ='Adopt'>
+	</form>
+</body>
+</html>
